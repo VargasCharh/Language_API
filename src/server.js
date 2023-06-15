@@ -44,6 +44,6 @@ app.use('/', indexRouter);
 app.use('/api/words', wordsRouter);
 app.use('/api/category', categoryRouter);
 app.use('/api/language', langRouter);
-app.user('/auth', authRouter);
+app.use('/auth', authRouter);
 
 app.listen(PORT, () => console.log(`App has started on port ${PORT}`));
